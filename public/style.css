@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #23252C;
+  padding   : 44px;
+}
+
+.Container {
+  position       : relative;
+  width          : 317px;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  margin         : 0 auto;
+  padding        : 0 35px;
+  background     : #1A1B21;
+  border-radius  : 10px;
+  overflow       : hidden;
+}
+
+.Info {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+.Info>img {
+  width        : 317px;
+  height       : 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Name {
+  font-family  : Inter;
+  font-style   : normal;
+  font-weight  : bold;
+  font-size    : 25px;
+  line-height  : 30px;
+  color        : #FFFFFF;
+  margin-bottom: 0;
+  text-align   : center;
+}
+
+.Job {
+  font-family  : Inter;
+  font-style   : normal;
+  font-weight  : normal;
+  font-size    : 14px;
+  line-height  : 15px;
+  color        : #55859c;
+  text-align   : center;
+  margin-bottom: 7%;
+}
+
+.Buttons {
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items    : center;
+}
+
+.Email {
+  background     : #FFFFFF;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items    : center;
+  padding        : 9px 13px 9px 11px;
+  border         : 1px solid #D1D5DB;
+  box-sizing     : border-box;
+  box-shadow     : 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius  : 6px;
+  width          : 115px;
+  height         : 34px;
+  font-family    : Inter;
+  font-style     : normal;
+  font-weight    : 500;
+  font-size      : 14px;
+  line-height    : 16px;
+  color          : #374151;
+  margin         : 0px 8px;
+  cursor         : pointer;
+  transition-duration: 0.4s;
+}
+
+.Email:hover {
+  background-color: #d2b4c6; 
+  color: white;
+}
+
+.Email>i {
+  padding-right: 5%;
+}
+
+.CV {
+  background     : #FFFFFF;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items    : center;
+  padding        : 9px 13px 9px 11px;
+  border         : 1px solid #D1D5DB;
+  box-sizing     : border-box;
+  box-shadow     : 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius  : 6px;
+  width          : 115px;
+  height         : 34px;
+  font-family    : Inter;
+  font-style     : normal;
+  font-weight    : 500;
+  font-size      : 14px;
+  line-height    : 16px;
+  color          : #374151;
+  margin         : 0px 8px;
+  cursor         : pointer;
+}
+
+.CV:hover {
+  background-color: #d2b4c6; 
+  color: white;
+}
+
+.CV > i {
+  padding-right: 5%;
+}
+
+.About {
+  margin-top: 6%;
+}
+
+.Interests {
+  margin-top   : 15%;
+  margin-bottom: 24px;
+}
+
+.About>h2,
+.Interests>h2 {
+  width      : 242.71px;
+  height     : 21px;
+  font-family: Inter;
+  font-style : normal;
+  font-weight: bold;
+  font-size  : 16px;
+  line-height: 150%;
+  color      : #F5F5F5;
+}
+
+.About>p,
+.Interests>p {
+  width      : 247px;
+  height     : 61px;
+  font-family: Inter;
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 12px;
+  line-height: 150%;
+  color      : #DCDCDC;
+
+}
+
+.Footer {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  width          : 317px;
+  height         : 64px;
+  background     : #161619;
+  border-radius  : 0px 0px 10px 10px;
+}
+
+.Footer>img {
+  height: 25px;
+  width : 25px;
+  cursor: pointer;
+}
