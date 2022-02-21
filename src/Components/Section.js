@@ -1,10 +1,12 @@
 import React from "react"
 
-export default function Section(props) {
+const Section = ({ title, text}) => {
     return (
         <div className="Section">
-            <h2 className="Section--title">{props.title}</h2>
-            <p className="Section--text">{props.text}</p>
+            <h2 className="Section--title">{title}</h2>
+            <p className="Section--text">{text}</p>
         </div>
     )
 }
+
+export default Section;
