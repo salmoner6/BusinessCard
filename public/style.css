@@ -45,6 +45,10 @@ body {
   text-align   : center;
 }
 
+.Age {
+  color        : #FFFFFF;
+}
+
 .Info--Job {
   font-family  : Inter;
   font-style   : normal;
