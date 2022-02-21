@@ -6,7 +6,14 @@ import Section from "./Components/Section"
 export default function App() {
   return (
     <div className="Container">
-      <Info />
+      <Info
+        img={require("./images/Headshot.jpg")}
+        name="Erin Salmon"
+        age="28"
+        job="Masters student"
+        email="erinsalmon@protonmail.com"
+        pdf={require("./Components/CV_ErinSalmon.pdf")}
+        />
       <Section
         title="About"
         text="Originally trained as a teacher with degrees in 
