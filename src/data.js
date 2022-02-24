@@ -8,17 +8,6 @@ const datas = [{
     pdf:require("./Components/CV_ErinSalmon.pdf"),
     about:"Originally trained as a teacher with degrees in psychology and education. Transitioned to computer science and web development. Currently completing my Master's and looking to work in educational software development.",
     interests:"Passionate about learning. Always up for an adventure.Love staying active, backcountry camping, hiking, running, skiing, and board games."
-},
-{
-    id: 2,
-    img: require("./images/Headshot.jpg"),
-    name:"New person",
-    age:"32",
-    job:" student",
-    email:"@protonmail.com",
-    pdf:require("./Components/CV_ErinSalmon.pdf"),
-    about:"Originally trained as a teacher with degrees in psychology and education. Transitioned to computer science and web development. Currently completing my Master's and looking to work in educational software development.",
-    interests:"Passionate about learning. Always up for an adventure.Love staying active, backcountry camping, hiking, running, skiing, and board games."
 }]
 
 export default datas;

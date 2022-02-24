@@ -47,6 +47,12 @@ body {
 
 .Age {
   color        : #FFFFFF;
+  font-family  : Inter;
+  font-style   : normal;
+  font-weight  : bold;
+  font-size    : 15px;
+  line-height  : 30px;
+  margin-bottom: 0;
 }
 
 .Info--Job {
